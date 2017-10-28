@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\ReconstructMesh\main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ReconstructMesh\OptimizeViews.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ReconstructMesh\ProjectViews.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ReconstructMesh\RenderContext.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ReconstructMesh\OptimizeDepths.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ReconstructMesh\OptimizeMesh.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ReconstructMesh\MapsData.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ReconstructMesh\ExtractContour.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ReconstructMesh\ExtractStroke.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ReconstructMesh\ValidateMesh.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ReconstructMesh\RenderMesh.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\ReconstructMesh\OptimizeViews.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ReconstructMesh\ProjectViews.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ReconstructMesh\RenderContext.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ReconstructMesh\OptimizeDepths.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ReconstructMesh\OptimizeMesh.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ReconstructMesh\MapsData.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ReconstructMesh\ExtractContour.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ReconstructMesh\ExtractStroke.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ReconstructMesh\ValidateMesh.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ReconstructMesh\RenderMesh.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReconstructMesh.licenseheader" />
+  </ItemGroup>
+</Project>

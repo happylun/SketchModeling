@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Src\Format">
+      <UniqueIdentifier>{77d990af-73b3-4d15-a3b5-f17c06005a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library">
+      <UniqueIdentifier>{e146da7e-bda9-4bb6-9630-e4ff05dd6f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Utility">
+      <UniqueIdentifier>{336d8364-6bcb-492a-9feb-bb47bebff6ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Common\Format\ObjLoader.cpp">
+      <Filter>Src\Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Format\OffLoader.cpp">
+      <Filter>Src\Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Format\PlyExporter.cpp">
+      <Filter>Src\Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Format\PlyLoader.cpp">
+      <Filter>Src\Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Utility\FileUtil.cpp">
+      <Filter>Src\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Utility\StringUtil.cpp">
+      <Filter>Src\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Utility\TimerUtility.cpp">
+      <Filter>Src\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Library\TheaKDTreeLinker.cpp">
+      <Filter>Src\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Format\PPMWriter.cpp">
+      <Filter>Src\Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Format\ImageWriter.cpp">
+      <Filter>Src\Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Format\ImageReader.cpp">
+      <Filter>Src\Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Format\PFMWriter.cpp">
+      <Filter>Src\Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Format\PFMReader.cpp">
+      <Filter>Src\Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common\Library\libiglLinker.cpp">
+      <Filter>Src\Library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Common\Format\ObjLoader.h">
+      <Filter>Src\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Format\OffLoader.h">
+      <Filter>Src\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Format\PlyExporter.h">
+      <Filter>Src\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Format\PlyExporterTemplate.h">
+      <Filter>Src\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Format\PlyLoader.h">
+      <Filter>Src\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Format\PlyLoaderTemplate.h">
+      <Filter>Src\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Library\CMLHelper.h">
+      <Filter>Src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Utility\FileUtil.h">
+      <Filter>Src\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Utility\StringUtil.h">
+      <Filter>Src\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Utility\TimerUtility.h">
+      <Filter>Src\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Library\EigenHelper.h">
+      <Filter>Src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Library\TheaKDTreeHelper.h">
+      <Filter>Src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Format\PPMWriter.h">
+      <Filter>Src\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Library\FreeImageHelper.h">
+      <Filter>Src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Format\ImageWriter.h">
+      <Filter>Src\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Format\ImageReader.h">
+      <Filter>Src\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Format\PFMWriter.h">
+      <Filter>Src\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Format\PFMReader.h">
+      <Filter>Src\Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Library\libiglHelperBegin.h">
+      <Filter>Src\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common\Library\libiglHelperEnd.h">
+      <Filter>Src\Library</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common.licenseheader" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+This distribution uses "TensorFlow library", 
+which is covered by its own Apache 2.0 License.
+
+This distribution uses "NumPy library", 
+which is covered by its own NumPy License.
+
+This distribution uses "SciPy library", 
+which is covered by its own SciPy License.
+
+This distribution includes modified source to "Configurable Math Library", 
+which is covered by its own Boost Software License. 
+
+This distribution includes modified source to "Eigen library", 
+which is covered by its own MPL2 License.
+
+This distribution includes modified source to "FreeImage library", 
+which is covered by its own GPLv2, GPLv3 and FIPL License.
+
+This distribution includes modified source to "GLEW library", 
+which is covered by its own BSD and MIT License.
+
+This distribution includes modified source to "libigl library", 
+which is covered by its own MPL2 License.
+
+This distribution includes modified source to "Thea library", 
+which is covered by its own BSD License.
+
+---
+
+All the other code is distributed as part of the "Sketch Modeling" project
+which is covered by the following license:
+
+Copyright (c) 2017 - Zhaoliang Lun / UMass-Amherst
+
+This is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This software is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this software.  If not, see <http://www.gnu.org/licenses/>.

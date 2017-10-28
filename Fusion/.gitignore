@@ -1,0 +1,8 @@
+*.suo
+*.sdf
+*.opensdf
+*.db
+*.opendb
+
+[Dd]ebug/
+[Rr]elease/

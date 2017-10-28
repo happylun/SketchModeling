@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcxproj", "{32F1E097-01AB-4307-8AAA-CA507E2AA0F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Monster", "Monster\Monster.vcxproj", "{2EE0B466-C498-44F1-8522-DB4348A73B99}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReconstructMesh", "ReconstructMesh\ReconstructMesh.vcxproj", "{124D72BF-CEA0-49E5-A8DC-CB710CEF7726}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F1E097-01AB-4307-8AAA-CA507E2AA0F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32F1E097-01AB-4307-8AAA-CA507E2AA0F5}.Debug|Win32.Build.0 = Debug|Win32
+		{32F1E097-01AB-4307-8AAA-CA507E2AA0F5}.Release|Win32.ActiveCfg = Release|Win32
+		{32F1E097-01AB-4307-8AAA-CA507E2AA0F5}.Release|Win32.Build.0 = Release|Win32
+		{2EE0B466-C498-44F1-8522-DB4348A73B99}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2EE0B466-C498-44F1-8522-DB4348A73B99}.Debug|Win32.Build.0 = Debug|Win32
+		{2EE0B466-C498-44F1-8522-DB4348A73B99}.Release|Win32.ActiveCfg = Release|Win32
+		{2EE0B466-C498-44F1-8522-DB4348A73B99}.Release|Win32.Build.0 = Release|Win32
+		{124D72BF-CEA0-49E5-A8DC-CB710CEF7726}.Debug|Win32.ActiveCfg = Debug|Win32
+		{124D72BF-CEA0-49E5-A8DC-CB710CEF7726}.Debug|Win32.Build.0 = Debug|Win32
+		{124D72BF-CEA0-49E5-A8DC-CB710CEF7726}.Release|Win32.ActiveCfg = Release|Win32
+		{124D72BF-CEA0-49E5-A8DC-CB710CEF7726}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

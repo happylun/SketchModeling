@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2EE0B466-C498-44F1-8522-DB4348A73B99}</ProjectGuid>
+    <RootNamespace>Monster</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)..\output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)..\output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)..\output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src\$(ProjectName);$(SolutionDir)..\src\Common;$(SolutionDir)..\3rdparty;$(SolutionDir)..\3rdparty\Eigen;$(SolutionDir)..\3rdparty\libigl\include;$(SolutionDir)..\3rdparty\libigl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src\$(ProjectName);$(SolutionDir)..\src\Common;$(SolutionDir)..\3rdparty;$(SolutionDir)..\3rdparty\Eigen;$(SolutionDir)..\3rdparty\libigl\include;$(SolutionDir)..\3rdparty\libigl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src\$(ProjectName);$(SolutionDir)..\src\Common;$(SolutionDir)..\3rdparty;$(SolutionDir)..\3rdparty\Eigen;$(SolutionDir)..\3rdparty\libigl\include;$(SolutionDir)..\3rdparty\libigl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src\$(ProjectName);$(SolutionDir)..\src\Common;$(SolutionDir)..\3rdparty;$(SolutionDir)..\3rdparty\Eigen;$(SolutionDir)..\3rdparty\libigl\include;$(SolutionDir)..\3rdparty\libigl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.vcxproj">
+      <Project>{32f1e097-01ab-4307-8aaa-ca507e2aa0f5}</Project>
+      <Private>false</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Monster\Image\ImageIO.cpp" />
+    <ClCompile Include="..\..\src\Monster\Image\ImageOperation.cpp" />
+    <ClCompile Include="..\..\src\Monster\Image\ImageTransform.cpp" />
+    <ClCompile Include="..\..\src\Monster\Match\Match2DRigidICP.cpp" />
+    <ClCompile Include="..\..\src\Monster\Match\MatchRigidICP.cpp" />
+    <ClCompile Include="..\..\src\Monster\Match\MatchSimpleICP.cpp" />
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshClean.cpp" />
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshCompute.cpp" />
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshEnvelope.cpp" />
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshIO.cpp" />
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshKDTree.cpp" />
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshRemesh.cpp" />
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshSplit.cpp" />
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshSubdivision.cpp" />
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshReorient.cpp" />
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshTets.cpp" />
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshView.cpp" />
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshVoxelize.cpp" />
+    <ClCompile Include="..\..\src\Monster\Sample\SampleIO.cpp" />
+    <ClCompile Include="..\..\src\Monster\Sample\SamplePoissonDisk.cpp" />
+    <ClCompile Include="..\..\src\Monster\Sample\SampleRandomness.cpp" />
+    <ClCompile Include="..\..\src\Monster\Sample\SampleSimplePoissonDisk.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Monster\Image\ImageIO.h" />
+    <ClInclude Include="..\..\src\Monster\Image\ImageOperation.h" />
+    <ClInclude Include="..\..\src\Monster\Image\ImageTransform.h" />
+    <ClInclude Include="..\..\src\Monster\Match\Match2DRigidICP.h" />
+    <ClInclude Include="..\..\src\Monster\Match\MatchRigidICP.h" />
+    <ClInclude Include="..\..\src\Monster\Match\MatchSimpleICP.h" />
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshClean.h" />
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshCompute.h" />
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshEnvelope.h" />
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshIO.h" />
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshKDTree.h" />
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshRemesh.h" />
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshSplit.h" />
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshSubdivision.h" />
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshReorient.h" />
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshTets.h" />
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshView.h" />
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshVoxelize.h" />
+    <ClInclude Include="..\..\src\Monster\Sample\SampleIO.h" />
+    <ClInclude Include="..\..\src\Monster\Sample\SamplePoissonDisk.h" />
+    <ClInclude Include="..\..\src\Monster\Sample\SampleRandomness.h" />
+    <ClInclude Include="..\..\src\Monster\Sample\SampleSimplePoissonDisk.h" />
+    <ClInclude Include="..\..\src\Monster\Type\MonsterTypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Monster.licenseheader" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

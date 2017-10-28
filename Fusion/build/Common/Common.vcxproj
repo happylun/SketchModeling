@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{32F1E097-01AB-4307-8AAA-CA507E2AA0F5}</ProjectGuid>
+    <RootNamespace>Common</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)..\output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)..\output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)..\output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src\$(ProjectName);$(SolutionDir)..\3rdparty;$(SolutionDir)..\3rdparty\Eigen;$(SolutionDir)..\3rdparty\FreeImage\$(Platform);$(SolutionDir)..\3rdparty\libigl\include;$(SolutionDir)..\3rdparty\libigl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\3rdparty\FreeImage\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src\$(ProjectName);$(SolutionDir)..\3rdparty;$(SolutionDir)..\3rdparty\Eigen;$(SolutionDir)..\3rdparty\FreeImage\$(Platform);$(SolutionDir)..\3rdparty\libigl\include;$(SolutionDir)..\3rdparty\libigl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\3rdparty\FreeImage\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src\$(ProjectName);$(SolutionDir)..\3rdparty;$(SolutionDir)..\3rdparty\Eigen;$(SolutionDir)..\3rdparty\FreeImage\$(Platform);$(SolutionDir)..\3rdparty\libigl\include;$(SolutionDir)..\3rdparty\libigl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\3rdparty\FreeImage\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src\$(ProjectName);$(SolutionDir)..\3rdparty;$(SolutionDir)..\3rdparty\Eigen;$(SolutionDir)..\3rdparty\FreeImage\$(Platform);$(SolutionDir)..\3rdparty\libigl\include;$(SolutionDir)..\3rdparty\libigl\external\tetgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\3rdparty\FreeImage\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Common\Format\ImageReader.cpp" />
+    <ClCompile Include="..\..\src\Common\Format\ImageWriter.cpp" />
+    <ClCompile Include="..\..\src\Common\Format\ObjLoader.cpp" />
+    <ClCompile Include="..\..\src\Common\Format\OffLoader.cpp" />
+    <ClCompile Include="..\..\src\Common\Format\PFMReader.cpp" />
+    <ClCompile Include="..\..\src\Common\Format\PFMWriter.cpp" />
+    <ClCompile Include="..\..\src\Common\Format\PlyExporter.cpp" />
+    <ClCompile Include="..\..\src\Common\Format\PlyLoader.cpp" />
+    <ClCompile Include="..\..\src\Common\Format\PPMWriter.cpp" />
+    <ClCompile Include="..\..\src\Common\Library\libiglLinker.cpp" />
+    <ClCompile Include="..\..\src\Common\Library\TheaKDTreeLinker.cpp" />
+    <ClCompile Include="..\..\src\Common\Utility\FileUtil.cpp" />
+    <ClCompile Include="..\..\src\Common\Utility\StringUtil.cpp" />
+    <ClCompile Include="..\..\src\Common\Utility\TimerUtility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Common\Format\ImageReader.h" />
+    <ClInclude Include="..\..\src\Common\Format\ImageWriter.h" />
+    <ClInclude Include="..\..\src\Common\Format\ObjLoader.h" />
+    <ClInclude Include="..\..\src\Common\Format\OffLoader.h" />
+    <ClInclude Include="..\..\src\Common\Format\PFMReader.h" />
+    <ClInclude Include="..\..\src\Common\Format\PFMWriter.h" />
+    <ClInclude Include="..\..\src\Common\Format\PlyExporter.h" />
+    <ClInclude Include="..\..\src\Common\Format\PlyExporterTemplate.h" />
+    <ClInclude Include="..\..\src\Common\Format\PlyLoader.h" />
+    <ClInclude Include="..\..\src\Common\Format\PlyLoaderTemplate.h" />
+    <ClInclude Include="..\..\src\Common\Format\PPMWriter.h" />
+    <ClInclude Include="..\..\src\Common\Library\CMLHelper.h" />
+    <ClInclude Include="..\..\src\Common\Library\EigenHelper.h" />
+    <ClInclude Include="..\..\src\Common\Library\FreeImageHelper.h" />
+    <ClInclude Include="..\..\src\Common\Library\libiglHelperBegin.h" />
+    <ClInclude Include="..\..\src\Common\Library\libiglHelperEnd.h" />
+    <ClInclude Include="..\..\src\Common\Library\TheaKDTreeHelper.h" />
+    <ClInclude Include="..\..\src\Common\Utility\FileUtil.h" />
+    <ClInclude Include="..\..\src\Common\Utility\StringUtil.h" />
+    <ClInclude Include="..\..\src\Common\Utility\TimerUtility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common.licenseheader" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

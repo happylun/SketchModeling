@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Src\Type">
+      <UniqueIdentifier>{793253f7-a184-42bf-9c38-29153e7f43a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Mesh">
+      <UniqueIdentifier>{22b9d3cc-c799-4832-87ab-def6b8df0149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Image">
+      <UniqueIdentifier>{d9407da1-349b-450f-b5bc-c0384a5a9c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Sample">
+      <UniqueIdentifier>{5f30f44a-ad20-452a-8536-a5f89e2a2d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Match">
+      <UniqueIdentifier>{82262fce-7d53-46b1-b8dc-6f62e30f8703}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshIO.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshClean.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshCompute.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshKDTree.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Image\ImageIO.cpp">
+      <Filter>Src\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Image\ImageTransform.cpp">
+      <Filter>Src\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshEnvelope.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshRemesh.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshSubdivision.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Sample\SamplePoissonDisk.cpp">
+      <Filter>Src\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Sample\SampleSimplePoissonDisk.cpp">
+      <Filter>Src\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Sample\SampleRandomness.cpp">
+      <Filter>Src\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshSplit.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshReorient.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Sample\SampleIO.cpp">
+      <Filter>Src\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Image\ImageOperation.cpp">
+      <Filter>Src\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshView.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Match\MatchSimpleICP.cpp">
+      <Filter>Src\Match</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshTets.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Match\MatchRigidICP.cpp">
+      <Filter>Src\Match</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Mesh\MeshVoxelize.cpp">
+      <Filter>Src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Monster\Match\Match2DRigidICP.cpp">
+      <Filter>Src\Match</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshIO.h">
+      <Filter>Src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Type\MonsterTypes.h">
+      <Filter>Src\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshClean.h">
+      <Filter>Src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshCompute.h">
+      <Filter>Src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshKDTree.h">
+      <Filter>Src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Image\ImageIO.h">
+      <Filter>Src\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Image\ImageTransform.h">
+      <Filter>Src\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshEnvelope.h">
+      <Filter>Src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshRemesh.h">
+      <Filter>Src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshSubdivision.h">
+      <Filter>Src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Sample\SamplePoissonDisk.h">
+      <Filter>Src\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Sample\SampleSimplePoissonDisk.h">
+      <Filter>Src\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Sample\SampleRandomness.h">
+      <Filter>Src\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshSplit.h">
+      <Filter>Src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshReorient.h">
+      <Filter>Src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Sample\SampleIO.h">
+      <Filter>Src\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Image\ImageOperation.h">
+      <Filter>Src\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshView.h">
+      <Filter>Src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Match\MatchSimpleICP.h">
+      <Filter>Src\Match</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshTets.h">
+      <Filter>Src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Match\MatchRigidICP.h">
+      <Filter>Src\Match</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Mesh\MeshVoxelize.h">
+      <Filter>Src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Monster\Match\Match2DRigidICP.h">
+      <Filter>Src\Match</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Monster.licenseheader" />
+  </ItemGroup>
+</Project>
