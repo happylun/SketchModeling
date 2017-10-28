@@ -71,6 +71,7 @@ Below are the detailed explanation for each command-line argument in order:
 - If you would like to use our code, please cite the following paper:
 
 	> Zhaoliang Lun, Matheus Gadelha, Evangelos Kalogerakis, Subhransu Maji, Rui Wang,
-	"3D Shape Reconstruction from Sketches via Multi-view Convolutional Networks"
+	"3D Shape Reconstruction from Sketches via Multi-view Convolutional Networks",
+	*Proceedings of the International Conference on 3D Vision (3DV) 2017*
 
 - For any questions or comments, please contact Zhaoliang Lun ([zlun@cs.umass.edu](mailto:zlun@cs.umass.edu))
