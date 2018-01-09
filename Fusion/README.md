@@ -25,7 +25,7 @@ This code base contains C++ code for fusing the network output maps into a 3D sh
 3. In Visual Studio, right click project `ReconstructMesh` > `Properties`. From the left-side panel, select `Configuration Properties` > `Debugging`. On the right-side window, setup the `Command Arguments` and `Working Directory` correctly. See **Command line arguments** section below for more details 
 4. Run the program by pressing `Ctrl+F5`. It will take a while 
 5. After the program finishes running, the fused point cloud file (`points.ply`) should be in the result folder specified in command line arguments
-6. Use the [Screened Poisson Surface Reconstruction executable](www.cs.jhu.edu/~misha/Code/PoissonRecon) to get a surface mesh from the output point cloud. Here is the suggested parameter setting
+6. Use the [Screened Poisson Surface Reconstruction executable](http://www.cs.jhu.edu/~misha/Code/PoissonRecon) to get a surface mesh from the output point cloud. Here is the suggested parameter setting
 
 	```
 	PoissonRecon.exe --in points.ply --out mesh.ply --depth 11 --samplesPerNode 5.0 --pointWeight 0.1
