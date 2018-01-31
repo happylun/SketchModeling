@@ -29,7 +29,7 @@ Our code has been tested only on **GeForce GTX Titan X** and **Tesla M40** graph
 ### Testing
 
 - Download testing data files [here](http://antares.cs.umass.edu/project_data/AdversarialMonsters/TestingData.7z)
-- Download pre-trained network parameters files [here](http://antares.cs.umass.edu/project_data/AdversarialMonsters/Checkpoint.7z)
+- Download pre-trained network parameters files [here](https://www.dropbox.com/s/1prh2tpn0w1ak3l/Zhaoliang%20Lun%20-%20Checkpoint.7z?dl=0)
 - Launch a command line window and go inside folder `code/MonsterNet/`
 - Run this command
 
@@ -41,7 +41,7 @@ Our code has been tested only on **GeForce GTX Titan X** and **Tesla M40** graph
 
 ### Training
 
-- Download training data [here](http://antares.cs.umass.edu/project_data/AdversarialMonsters/TrainingData.7z)
+- Download training data [here](https://www.dropbox.com/s/3a8xf2oozrvuriv/Zhaoliang%20Lun%20-%20TrainingData.7z?dl=0)
 - Launch a command line window and go inside folder `code/MonsterNet/`
 - Run this command
 
