@@ -80,4 +80,4 @@ Our code has been tested only on **GeForce GTX Titan X** and **Tesla M40** graph
 	"3D Shape Reconstruction from Sketches via Multi-view Convolutional Networks",
 	*Proceedings of the International Conference on 3D Vision (3DV) 2017*
 
-- For any questions or comments, please contact Zhaoliang Lun ([zlun@cs.umass.edu](mailto:zlun@cs.umass.edu))
+- For any questions or comments, please contact Zhaoliang Lun ([zhaoliang.lun@gmail.com](mailto:zhaoliang.lun@gmail.com))
