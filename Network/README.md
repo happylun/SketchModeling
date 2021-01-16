@@ -3,7 +3,7 @@
 
 ----------
 
-[Project Page](http://people.cs.umass.edu/~zlun/papers/SketchModeling/)
+[Project Page](https://people.cs.umass.edu/~kalo/papers/SketchModeling/)
 
 ## Introduction
 
@@ -28,7 +28,7 @@ Our code has been tested only on **GeForce GTX Titan X** and **Tesla M40** graph
 
 ### Testing
 
-- Download testing data files [here](https://people.cs.umass.edu/~zlun/papers/SketchModeling/TestingData.7z)
+- Download testing data files [here](https://people.cs.umass.edu/~kalo/papers/SketchModeling/TestingData.7z)
 - Download pre-trained network parameters files [here](http://neghvar.cs.umass.edu/public_data/zhaoliang_lun_checkpoint.7z)
 - Launch a command line window and go inside folder `code/MonsterNet/`
 - Run this command
