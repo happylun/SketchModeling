@@ -3,7 +3,7 @@
 
 ----------
 
-[Project Page](http://people.cs.umass.edu/~zlun/papers/SketchModeling/)
+[Project Page](https://people.cs.umass.edu/~kalo/papers/SketchModeling/)
 
 ## Introduction
 
